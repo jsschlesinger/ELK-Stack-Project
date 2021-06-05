@@ -131,7 +131,8 @@ SSH into the control node and follow the steps below:
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 		
-		/etc/ansible/playbooks/*beat-configuration.yml
+		/etc/ansible/playbooks/filebeat-configuration.yml
+		/etc/ansible/playbooks/metricbeat-configuration.yml
 		
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 		
@@ -143,4 +144,5 @@ _TODO: Answer the following questions to fill in the blanks:_
 		
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 		
-		ansible-playbook *beat-playbook.yml
+		ansible-playbook filebeat-playbook.yml
+		ansible-playbook metricbeat-playbook.yml
