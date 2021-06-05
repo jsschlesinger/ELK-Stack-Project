@@ -8,6 +8,8 @@ The files in this repository were used to configure the network depicted below.
 [TODO: Update the path with the name of your diagram] (Images/diagram_filename.png)
 		
 		ELK-Stack-Project/Diagrams/JSS ELK Stack Diagram.png
+		
+		![image](https://user-images.githubusercontent.com/79220728/120896962-e71a9000-c5f1-11eb-8791-3204261e1060.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the install-ELK.yml file may be used to install only certain pieces of it, such as Filebeat.
 - _TODO: Enter the playbook file._
@@ -97,6 +99,8 @@ The following screenshot displays the result of running `docker ps` after succes
 [TODO: Update the path with the name of your screenshot of docker ps output] (Images/docker_ps_output.png)
 		
 		ELK-Stack-Project/Ansible/Images/ELK-1 docker ps.png
+		
+		![image](https://user-images.githubusercontent.com/79220728/120896955-d36f2980-c5f1-11eb-8cdd-a1e5ed5ec48c.png)
 
 ### Target Machines & Beats
 
